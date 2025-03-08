@@ -57,6 +57,8 @@
         "no-multi-assign": "off",
         "no-bitwise": "off",
         "prefer-rest-params": "off",
-        "function-paren-newline": "off"
+        "function-paren-newline": "off",
+        "require-unicode-regexp": 0,
+        "linebreak-style": 0
     }
 }

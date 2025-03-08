@@ -89,6 +89,7 @@ Ext.define('Traccar.view.edit.Notifications', {
             renderer: function (value) {
                 var result = '', i, notificators;
                 if (value) {
+                    /* eslint-disable-next-line require-unicode-regexp */
                     notificators = value.split(/[ ,]+/).filter(Boolean);
                     for (i = 0; i < notificators.length; i++) {
                         result += Traccar.app.getNotificatorString(notificators[i]) + (i < notificators.length - 1 ? ', ' : '');
